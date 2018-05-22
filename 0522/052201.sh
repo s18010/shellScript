@@ -1,1 +1,1 @@
-ln -s ./var/log/syslog ./log
+ln -s /var/log/syslog log
