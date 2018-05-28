@@ -1,1 +1,1 @@
-sudo grep "172.16.40.1" -rl /etc/ | sort | uniq -u 
+sudo find /etc -type f | sudo xargs grep 172.16.40.1 | sort | uniq
