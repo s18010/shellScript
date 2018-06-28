@@ -4,5 +4,5 @@
 today=$(date '+%s')
 date=$(date -d '2018/5/8' '+%s')
 diff=$((today - date))
-elapsed_days=$(expr $diff / 86400 + 1)
+elapsed_days=$(expr $diff / 86400)
 echo "5月8日から$elapsed_days日経ちました。"
